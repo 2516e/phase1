@@ -1,0 +1,51 @@
+h1{
+    background-color:rgb(51, 76, 77);
+    color: white;
+}
+
+p:nth-child(even){
+    color:cornflowerblue;
+}
+
+p:nth-child(odd){
+    color: violet;
+}
+
+p:nth-child(3), 
+p:nth-child(10){
+    color: orange;
+}
+
+.zone1{
+    color: rgb(228, 3, 3);
+}
+
+.zone2{
+    color: cadetblue;
+}
+
+div.zone2 span.lime{
+    color: lime;
+}
+
+#zone3::before{
+    content: "rajouté avant ";
+    background-color: cyan;
+}
+
+#zone3::after{
+    content: "rajouté après";
+}
+
+#zone3{
+    background-color: bisque;
+}
+
+div.zone4 span{
+    font-weight:bolder;
+}
+
+li:nth-child(2){
+    background-color: darkred;
+    color: white;
+}

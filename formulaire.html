@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="/css/formulaire.css"
+</head>
+<body>
+    
+<h1>Copie formulaire</h1>
+    
+<form action="">
+
+  
+  <div>
+    <label for="nickname">Pseudonyme</label><br>
+    <input type="text" id="nickname" name="nickname" placeholder="exemple">
+</div>
+    <label for="Password">Mot de passe *</label>
+    <input type="password" id="Password" name="Password" placeholder="Mot de passe" required><br><br>
+    <div>
+    <label for="Email">Email</label>
+    <input type="email" id="Email" name="Email" placeholder="Email"><br>
+</div>
+
+<br
+<div>
+    <label for="Picture">Photo</label>
+  <input type="file" id="Picture" name="Picture"><br>
+</div>
+<br>
+  
+  
+  
+  <fieldset>
+    <legend>Choix multiples</legend>
+    
+    <div>
+        <label for="Destination">Quelle destination choisissez-vous?</label>
+
+        <input type="checkbox" name="pays1" id="destination">Italie
+        <input type="checkbox" name="pays2" id="destination">Tunisie
+        <input type="checkbox" name="pays3" id="destination">Espagne<br><br><br>
+
+
+        <label for="Destination">Qui seront vos accompagnateurs?</label>
+
+        <input type="radio" name="accompagnateurs">En famille
+        <input type="radio" name="accompagnateurs">Entre amis
+        <input type="radio" name="accompagnateurs">Solo
+    </div>
+
+  </fieldset><br>
+  
+  
+  <label for="commentaires" class="commentaires">Commentaires</label>
+  <textarea id="commentaires" name="commentaires" rows="8" cols="80"></textarea>
+  <div class="clear"><input type="submit" value="Envoyer"> <input type="reset" value="Annuler"></div>
+  
+
+</form> 
+    
+</body>
+    
+</body>
+</html>

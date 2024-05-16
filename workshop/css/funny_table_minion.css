@@ -17,4 +17,18 @@ tr:nth-last-child(1){
     background-color: green;
 }
 
+.yellow{
+    background-color:yellow;
+  }
 
+.grey{
+    background-color: grey;
+}
+
+.black{
+    background-color: black ;
+}
+
+.blue{
+    background-color: blue;
+}

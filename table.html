@@ -5,59 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tableur</title>
     <link rel="stylesheet" href="/css/table.css" />
-    <style>
-      table,
-      th,
-      td {
-        border: 1px solid black;
-      }
-    </style>
   </head>
   <body>
-    <h2>Ventes</h2>
+    <caption>
+      Ventes
+    </caption>
+
+    <table style="width: 100%">
+      <!-- thead>tr>th*4^^tbody>tr*5^^tfoot>tr>th+td*3 -->
+      <thead>
+        <tr>
+          <th scope="col">Jour</th>
+          <th scope="col">Smartphone</th>
+          <th scope="col">Tablette</th>
+          <th scope="col">Portable</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Lundi</th>
+          <td>2</td>
+          <td>6</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <th scope="row">Mardi</th>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <th scope="row">Mercredi</th>
+          <td>5</td>
+          <td>1</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">Jeudi</th>
+          <td>12</td>
+          <td>10</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <th scope="row">Vendredi</th>
+          <td>2</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Total</th>
+          <td>22</td>
+          <td>26</td>
+          <td>24</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <br />
+    <br />
+    <br />
+    <br />
 
     <table style="width: 100%">
       <tr>
-        <th>Jour</th>
-        <th>Smartphone</th>
-        <th>Tablette</th>
-        <th>Portable</th>
+        <th>Name</th>
+        <td>Jill</td>
       </tr>
       <tr>
-        <th>Lundi</th>
-        <td>2</td>
-        <td>6</td>
-        <td>0</td>
+        <th rowspan="2">Phone</th>
+        <td>555-8745</td>
       </tr>
       <tr>
-        <th>Mardi</th>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
+        <td>555-8745</td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <table style="width: 100%">
+      <tr>
+        <th colspan="2">Hobbies</th>
       </tr>
       <tr>
-        <th>Mercredi</th>
-        <td>5</td>
-        <td>1</td>
-        <td>4</td>
-      </tr>
-      <tr>
-        <th>Jeudi</th>
-        <td>12</td>
-        <td>10</td>
-        <td>8</td>
-      </tr>
-      <tr>
-        <th>Vendredi</th>
-        <td>2</td>
-        <td>6</td>
-        <td>7</td>
-      </tr>
-      <tr>
-        <th>Total</th>
-        <td>22</td>
-        <td>26</td>
-        <td>24</td>
+        <td>soccer</td>
+        <td>anime</td>
       </tr>
     </table>
   </body>

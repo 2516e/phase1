@@ -1,3 +1,37 @@
+*{
+    font-family: fantasy;
+}
+
+table,th,td {
+        border: 1px solid black;
+      }
+
+caption{
+    color: #6a5acd;
+}
+table{
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 4px solid #6a5acd;
+}
 th{
+    width: 25%;
+    padding: 4px;
+    background-color: rgba(255, 207, 245, 0.692);
     text-align: left;
+    border-bottom-s;
+}
+td:first-child
+
+td{
+    text-align: center;
+    border: 1px #6a5acd ;
+    border-style:dotted ;
+    padding: 15px;
+}
+
+tr:nth-child(7){
+    border-style: double;
+    background-color: #695acd28;
 }

@@ -1,34 +1,87 @@
-table,td {
-        border: 1px solid black;
-      }
-
-td{
-    width: 30px;
-    height: 30px;
+table,
+td {
+  border: 1px solid black;
 }
 
-table{
-    border-collapse: collapse;
-    margin: auto;
-    margin-top: 100px;
+td {
+  width: 30px;
+  height: 30px;
 }
 
-tr:nth-last-child(1){
-    background-color: green;
+table {
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 100px;
 }
 
-.yellow{
-    background-color:yellow;
+tr:nth-last-child(1) {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.blackintoblue {
+  background-color: rgb(0, 0, 0);
+}
+
+.blackintored {
+  background-color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 1200px) {
+    .yellow {
+      background-color: rgb(73, 12, 12);
+    }
+  
+    .blackintored {
+      background-color: red;
+    }
+    .blackintoblue {
+      background-color: rgb(99, 99, 218);
+    }
+  
+    .blackintored {
+      background-color: rgb(201, 110, 110);
+    }
+  
+    .blue {
+      background-color: rgb(245, 112, 238);
+    }
   }
 
-.grey{
-    background-color: grey;
+@media screen and (max-width: 750px) {
+  .yellow {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .blackintored {
+    background-color: red;
+  }
+  .blackintoblue {
+    background-color: rgb(39, 39, 68);
+  }
+
+  .blackintored {
+    background-color: red;
+  }
+
+  .blue {
+    background-color: rgb(88, 1, 84);
+  }
 }
 
-.black{
-    background-color: black ;
-}
 
-.blue{
-    background-color: blue;
-}

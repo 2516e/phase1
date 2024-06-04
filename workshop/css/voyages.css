@@ -2,55 +2,45 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "kufam", sans-serif;
   color: white;
+  font-family: "kufam", sans-serif;
+  text-shadow: black  0 1px 5px;
 }
 
 /* header */
 
 header{
-    height: 100px;
-    background-image: linear-gradient(rgb(45, 253, 149),rgb(34,193,195)) ;
+    background: linear-gradient(rgb(45, 253, 149),rgb(34,193,195)) ;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.logo{
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 20px;
     align-items: center;
 }
 
-.logotext{
-    line-height: 100px;
+.logo{
+    display: flex;
+    align-items: center;
 }
+
 
 .logoimg{
     height: 80px;
-    justify-content: center;
-}
-.clickabletext{
-    width: 50%;
-    list-style-type: none;
 }
 
 .clickablelist{
     display: flex;
-    flex-wrap: wrap;
-    line-height: 100px;
     float: right;
+    list-style: none;
 }
 
 a{
     text-decoration: none;
 }
 
-ul{
-    margin-right: 20px;
+li{
+    font-weight: 600 ;
+    padding: 10px;
 }
-
 
 /* marquee */
 
@@ -58,10 +48,8 @@ marquee{
     height: 50px;
     background-color: rgb(34,193,195);
     border: white 4px double;
-}
-
-.marquee_text{
-    font-size: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /* END marquee */
@@ -76,39 +64,40 @@ main img{
     height: 300px;
 }
 .content {
-    width : 70%;
+    width : 60%;
     margin: auto;
 }
 
-main div {
+main section {
     margin: 20px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
+
 .japoncontent{
-    background-image: linear-gradient(rgb(86,166,241),rgb(191,129,148));
-    height: 30%;
+    background: linear-gradient(rgb(86,166,241),rgb(191,129,148));
     width: 100%;
     border-radius: 15PX;
-    display: flex;
+
 }
 
 .thailandecontent{
-    background-image: linear-gradient(rgb(70,134,195),rgb(97,227,194));
-    height: 30%;
-    width: 100%;
+    background: linear-gradient(rgb(70,134,195),rgb(97,227,194));
     border-radius: 15PX;
-    display: flex;
+
 }
 
 .indecontent{
     background-image: linear-gradient(rgb(92,144,181),rgb(226,132,23));
-    height: 30%;
-    width: 100%;
     border-radius: 15PX;
-    display: flex;
 }
 
-
-
+.imgpays{
+    width: 50%;
+    
+}
 
 
 /* END main */
@@ -117,7 +106,7 @@ main div {
 
 footer{
     height: 100px;
-    background-image: linear-gradient(rgb(34,193,195),rgb(45, 253, 149)) ;
+    background: linear-gradient(rgb(34,193,195),rgb(45, 253, 149)) ;
 }
 
 .footertext{

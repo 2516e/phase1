@@ -1,52 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 1px solid black;
-    color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  color: black;
 }
 
-.container{
-    width: 1200px;
-    margin: auto;
+.container {
+  width: 1200px;
+  margin: auto;
 }
+
 /* header */
 
-header{
-    font-family: "Caveat Brush", sans-serif;
-    display: flex;
-    flex-direction: column;
+header {
+  font-family: "Caveat Brush", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/img\ ce_soir/bg.jpg");
 }
 
-.firstrow{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+.firstrow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-hr.cesoir{
-    border: 5px solid #e53f6f ;
-    width: 20px;
-    margin: auto;
+hr.cesoir {
+  border: 5px solid #e53f6f;
+  width: 20px;
+  margin: auto;
 }
 
 header ul {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
-header a{
-    text-decoration: none;
-}
-
-.secondrow{
-    margin: auto;
-}
-.cerfimg{
-    width: 500px;
+header a {
+  text-decoration: none;
 }
 
 /* nav */
+
+.secondrow {
+  margin: auto;
+  position: relative;
+}
+.cerfimg {
+  width: 300px;
+}
+
+.trianglebg {
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-right: 200px solid #e53f6f;
+  border-bottom: 200px solid transparent;
+}
+
+.thirdrow{
+    margin: auto;
+}
+.arrow {
+  border: solid #e53f6f;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 20px;
+  margin-top: -20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
 
 /* END nav */
 /* END header */
@@ -61,27 +85,24 @@ header a{
 
 /* mediaqueries */
 
-@media (max-width : 1199.99px){
-    .container{
-        width:80%;
-        background-color: pink;
-    }
+@media (max-width: 1199.99px) {
+  .container {
+    width: 80%;
+    background-color: pink;
+  }
 }
 
-@media (max-width : 960px){
-    .container{
-        width:80%;
-        background-color: lightblue;
-    }
+@media (max-width: 960px) {
+  .container {
+    width: 80%;
+    background-color: lightblue;
+  }
 }
 
-@media (max-width : 560px){
-    .container{
-        width:100%;
-        background-color: purple;
-    }
+@media (max-width: 560px) {
+  .container {
+    width: 100%;
+    background-color: purple;
+  }
 }
 /* END mediaqueries */
-
-
-

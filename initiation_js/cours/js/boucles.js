@@ -10,10 +10,27 @@
 //     mois++  
 // }
 
-var age = parseInt(window.prompt("Quel âge as-tu?"));
-var majoriteFr = 18
+// var age = parseInt(window.prompt("Quel âge as-tu?"));
+// var majoriteFr = 18
 
-if (age >= majoriteFr) {
+// if (age >= majoriteFr) {
+//     document.write ("<h1>" + "Bienvenue à toi" + "</h1>")
+// } else {
+//     alert ("Vous n'avez pas l'âge requis !")
+//     window.open( "http://www.darty.com/")
+// }
+
+// add loop while the value entered is not in between 3-120
+
+var age = parseInt(window.prompt("Quel âge as-tu?"));
+var majoritefr = 18
+var agemin = 3
+var agemax = 120
+
+while (age <= agemin || age >= agemax) {
+    age = parseInt(window.prompt("Quel âge as-tu?"));
+} 
+if (age >= majoritefr && age <= agemax) {
     document.write ("<h1>" + "Bienvenue à toi" + "</h1>")
 } else {
     alert ("Vous n'avez pas l'âge requis !")

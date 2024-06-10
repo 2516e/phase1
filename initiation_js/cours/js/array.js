@@ -8,11 +8,16 @@
 
 
 
-var couleurs = ["pink","anthracite","purple"];
-var couleursTabLength = couleurs.length;
+// var couleurs = ["pink","anthracite","purple"];
+// var couleursTabLength = couleurs.length;
 
-console.log (couleurs[couleursTabLength-1]);
+// console.log (couleurs[couleursTabLength-1]);
 
-for (var i=0; i < couleurs.length;i++){
-    console.log(couleurs[i])
-}
+// for (var i=0; i < couleurs.length;i++){
+//     console.log(couleurs[i])
+// }
+
+// for (i = 10 ; i >= 0 ; i-- ){
+//     document.write(i + "<br>")
+// }
+

@@ -18,3 +18,4 @@ console.log (c)
 
 c = c*b
 console.log (c)
+

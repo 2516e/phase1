@@ -1,7 +1,5 @@
 var nbMois = parseInt(prompt("Chiffre correspondant au mois :"))
 var moisPair = ["Février","Avril","Juin","Août","Octobre","Décembre"]
-var moisPairLength 
-var moisImpair = ["Janvier","Mars","Mai","Juillet","Septembre","Novembre"]
 
 
 while (isNaN(nbMois) || nbMois>12 || nbMois <= 0){

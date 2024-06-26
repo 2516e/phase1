@@ -1,0 +1,202 @@
+/*************** GLOBAL ***************/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; 
+}
+
+/* color : #1C5F81 / black / white */
+
+/*************** HEADER ***************/
+
+header{
+  background-image: url("../img/dinosaure.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  position: relative;
+}
+
+/*************** NAV ***************/
+
+nav{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 80px;
+  margin: auto;
+}
+
+li,a{
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+
+.bluebgbutton{
+  background-color: #1C5F81 ;
+  padding: 10px 30px;
+  max-width: max-content;
+}
+
+a{
+  border:none;
+  position: relative;
+}
+.EN{
+  opacity: 50%;
+}
+a:hover{
+  border: none;
+}
+a::after{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  left: 50%;
+  top:0;
+  background-color: white;
+  transition: all ease-in-out .2s;
+}
+a:hover::after{
+  width: 100%;
+  left: 0;
+}
+
+a:focus{
+  border-top: rgb(141, 174, 79);
+}
+
+.bluebgbutton:hover{
+  transition: 0.5s;
+  background-color: white;
+  a{
+    color: #1C5F81;
+  }
+  .fa-solid{
+    color: #1C5F81 !important;
+  }
+}
+/*************** END NAV ***************/
+
+.hero{
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.clim{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+/*************** END HEADER ***************/
+
+/*************** MAIN ***************/
+
+.presentation{
+  display: flex;
+  width: 750px;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.presentation h1{
+  font-size: 40px;
+  font-weight: 800;
+}
+
+h1,h3{
+  text-align: center;
+}
+
+.zoom{
+  transition: transform .5s
+}
+
+.zoom:hover{
+  transform: scale(1.5);
+  }
+b{
+  font-weight: 900;
+}
+
+.info{
+  width: 70%;
+  height: 700px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap ;
+  flex-direction: column;
+}
+
+.info div,hr {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+
+}
+
+hr {
+  opacity: 30%;
+}
+
+.chainestv{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+/*************** END MAIN ***************/
+
+/*************** FOOTER ***************/
+
+
+footer{
+  background-color: black;
+  display: flex;
+  height: 400px;
+}
+
+footer .content{
+  display: flex;
+  margin: auto;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+/*************** END FOOTER ***************/
+
+/*************** MEDIAQUERY ***************/
+
+@media (max-width: 1439.98px) {
+}
+
+@media (max-width: 960px) {
+}
+
+@media (max-width: 760px) {
+}
+
+@media (max-width: 560px) {
+}
+
+/*************** END MEDIAQUERY ***************/
